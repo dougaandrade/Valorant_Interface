@@ -11,6 +11,8 @@ a {
 
 body {
     background: url("../img/Battle\ Pass\ Glitches.gif")no-repeat center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.398);
     height: 100%;
     max-width: 100%;
     background-position: center;

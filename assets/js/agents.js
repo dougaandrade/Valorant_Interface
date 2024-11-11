@@ -40,7 +40,6 @@ function exibirImagem() {
   namePlayer.innerText = randomImagens.player;
   img_main.appendChild(namePlayer);
 }
-
 // Função para exibir os cards de agentes
 function exibirCards() {
   const cardAgents = document.querySelector(".content");
@@ -57,7 +56,6 @@ function exibirCards() {
     cardAgents.insertAdjacentHTML("beforeend", cardHTML);
   });
 }
-
 // Função para manipular a seleção de um agente ao clicar no card
 function personagens() {
   const cards = document.querySelectorAll(".card");

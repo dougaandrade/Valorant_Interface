@@ -334,6 +334,7 @@ main {
 
 .agents-content {
     width: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -353,7 +354,7 @@ main {
 }
 
 .container-agents{
-    height: 40rem;
+    height: 45rem;
     padding: 10px;
     width: 100%;
     display: flex;

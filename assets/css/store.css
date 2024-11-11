@@ -368,7 +368,7 @@ hr {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.335);
     transition: all 0.3s;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff30;
 }
 
 .content-card {
