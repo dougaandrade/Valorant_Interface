@@ -127,6 +127,7 @@ ion-icon {
 }
 
 .navbar-miss {
+   width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -135,7 +136,7 @@ ion-icon {
 
 .nav-bar-vlrt {
     width: 100%;
-    gap: 3px;
+    gap: 5px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
