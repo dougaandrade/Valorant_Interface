@@ -1,4 +1,3 @@
-// Função para criar e renderizar o header HTML global
 function renderHeader() {
   const header = document.createElement("header");
   header.innerHTML = `
@@ -67,6 +66,5 @@ function renderHeader() {
   return header;
 }
 
-// Exemplo de uso: renderizando o header no container principal
 const app = document.getElementById("nav-header");
 app.appendChild(renderHeader());
