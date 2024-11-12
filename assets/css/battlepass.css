@@ -23,6 +23,7 @@ ion-icon {
     font-size: 20px;
     padding: 10px 4px 10px 0;
 }
+
 main {
     margin: 0 auto;
     width: 100%;
@@ -188,7 +189,7 @@ main {
     text-transform: uppercase;
 }
 
-.card{
+.card {
     width: 120px;
     height: 120px;
     background: #ffffff4d;
@@ -199,7 +200,7 @@ main {
 }
 
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
 }
 
@@ -244,7 +245,7 @@ main {
 
 .icon-guns {
     width: 7rem;
-    rotate:45deg;
+    rotate: 45deg;
 }
 
 .card-span {
@@ -257,4 +258,3 @@ main {
 }
 
 /* Fim  EP Itens */
-

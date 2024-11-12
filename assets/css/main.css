@@ -158,6 +158,7 @@ main {
     color: white;
     cursor: pointer;
 }
+
 .nav-bar-vlrt-bar {
     width: 100%;
     height: 100%;
@@ -266,7 +267,7 @@ main {
     width: 18rem;
     height: auto;
     border: 1px solid white;
-    
+
 }
 
 .text-features {
@@ -374,5 +375,3 @@ main {
     width: 30px;
     height: 30px;
 }
-
-

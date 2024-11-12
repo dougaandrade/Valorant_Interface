@@ -46,7 +46,7 @@ body {
     font-weight: 900;
     letter-spacing: -1px;
     font-size: 0.8rem;
-    border-bottom: 1px solid #ffffff;  
+    border-bottom: 1px solid #ffffff;
 }
 
 .radio-input label:has(input:checked) {

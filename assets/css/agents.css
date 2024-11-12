@@ -97,7 +97,7 @@ main {
     color: #fff;
 }
 
-.text-agents{
+.text-agents {
     width: 19%;
     position: absolute;
     left: 58.4%;
@@ -139,7 +139,7 @@ main {
     gap: 5px;
 }
 
-.container-agents{
+.container-agents {
     height: 45rem;
     padding: 10px;
     width: 100%;
@@ -147,7 +147,7 @@ main {
     justify-content: center;
 }
 
-.content{
+.content {
     display: flex;
     width: 54%;
     flex-direction: row;
@@ -158,7 +158,8 @@ main {
     gap: 5px;
     z-index: 99;
 }
-.card-agents{
+
+.card-agents {
     display: flex;
     justify-content: center;
 }
@@ -219,4 +220,3 @@ main {
 
 
 /* Fim Agents*/
-
