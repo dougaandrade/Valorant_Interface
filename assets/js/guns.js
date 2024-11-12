@@ -10,7 +10,7 @@ const imagensGuns = [
 
 let imagemAtual = imagensGuns;
 
-function exibirImagem() {
+function exibirImagemAleatoria() {
   const img_main = document.querySelector(".arms_content");
   img_main.style.margin = "1rem";
   img_main.innerHTML = `
@@ -20,13 +20,13 @@ function exibirImagem() {
 
 function exibirCards() {
   const cardGuns = document.querySelector(".episode");
-  imagensGuns.forEach((guns) => {
+  imagensGuns.forEach((card) => {
     const cardHTML = `
     <div class="card">
         <div class="ep-basic">
-        <img src="${guns.guns}" class="icon-guns">
+        <img src="${card.guns}" class="icon-guns">
         <div class="card-span">
-        <span class="span">${guns.tier}</span>
+        <span class="span">${card.tier}</span>
         <span class="span"><ion-icon name="lock-closed" class="icon-close"></ion-icon></span>
         </div>
         </div>
@@ -36,7 +36,7 @@ function exibirCards() {
   });
 }
 
-function exibirClickGuns() {
+function exibirGuns() {
   const img_main = document.querySelector(".arms_content");
   const cards = document.querySelectorAll(".card");
   cards.forEach((card, index) => {
@@ -57,5 +57,5 @@ function exibirClickGuns() {
 }
 
 exibirCards();
-exibirClickGuns();
-exibirImagem();
+exibirGuns();
+exibirImagemAleatoria();

@@ -1,4 +1,4 @@
-const imagens = [
+const imagemAgents = [
   { player: "Jett", image: "../img/Jett_Artwork_Full.webp" },
   { player: "Astra", image: "../img/Astra_Artwork_Full.webp" },
   { player: "Breach", image: "../img/Breach_Artwork_Full.webp" },
@@ -26,8 +26,9 @@ const imagens = [
 const img_main = document.querySelector(".agents-content");
 
 // Função para exibir uma imagem aleatória inicialmente
-function exibirImagem() {
-  const randomImagens = imagens[Math.floor(Math.random() * imagens.length)];
+function exibirImagemAleatoria() {
+  const randomImagens =
+    imagemAgents[Math.floor(Math.random() * imagemAgents.length)];
 
   // Cria o elemento de imagem e define o caminho correto
   const imgSelecionada = document.createElement("img");
@@ -44,7 +45,7 @@ function exibirImagem() {
 function exibirCards() {
   const cardAgents = document.querySelector(".content");
 
-  imagens.forEach((agent) => {
+  imagemAgents.forEach((agent) => {
     const cardHTML = `
       <div class="card">
         <div class="content-card">
@@ -57,7 +58,7 @@ function exibirCards() {
   });
 }
 // Função para manipular a seleção de um agente ao clicar no card
-function personagens() {
+function exibirPersonagens() {
   const cards = document.querySelectorAll(".card");
   cards.forEach((card, index) => {
     card.addEventListener("click", function () {
@@ -69,13 +70,13 @@ function personagens() {
 
       // Cria e exibe a nova imagem do agente selecionado
       const imgSelecionada = document.createElement("img");
-      imgSelecionada.src = imagens[index].image;
+      imgSelecionada.src = imagemAgents[index].image;
       imgSelecionada.className = "agents_main";
       img_main.appendChild(imgSelecionada);
 
       // Cria e exibe o nome do agente selecionado
       const NamePlayer = document.createElement("h1");
-      NamePlayer.innerText = imagens[index].player;
+      NamePlayer.innerText = imagemAgents[index].player;
       NamePlayer.className = "name-agents";
       img_main.appendChild(NamePlayer);
     });
@@ -84,5 +85,5 @@ function personagens() {
 
 // Chama as funções em ordem correta
 exibirCards();
-personagens();
-exibirImagem();
+exibirPersonagens();
+exibirImagemAleatoria();
