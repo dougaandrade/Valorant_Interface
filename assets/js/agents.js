@@ -42,7 +42,7 @@ function exibirImagemAleatoria() {
   img_main.appendChild(namePlayer);
 }
 // Função para exibir os cards de agentes
-function exibirCards() {
+function exibirCardsHtml() {
   const cardAgents = document.querySelector(".content");
 
   imagemAgents.forEach((agent) => {
@@ -85,6 +85,6 @@ function exibirPersonagens() {
 }
 
 // Chama as funções em ordem correta
-exibirCards();
+exibirCardsHtml();
 exibirPersonagens();
 exibirImagemAleatoria();

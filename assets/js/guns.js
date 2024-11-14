@@ -18,7 +18,7 @@ function exibirImagemAleatoria() {
   </div>`;
 }
 
-function exibirCards() {
+function exibirCardsHtml() {
   const cardGuns = document.querySelector(".episode");
   imagensGuns.forEach((card) => {
     const cardHTML = `
@@ -56,6 +56,6 @@ function exibirGuns() {
   });
 }
 
-exibirCards();
+exibirCardsHtml();
 exibirGuns();
 exibirImagemAleatoria();
