@@ -205,7 +205,11 @@ main {
 }
 
 .icon-close {
-    padding: 5px 3px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    padding: 0px 40px 5px 0px;
     position: absolute;
     color: #f2f687;
 }

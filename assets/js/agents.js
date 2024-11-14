@@ -65,6 +65,7 @@ function exibirPersonagens() {
       // Remove a imagem e o nome anterior, se existirem
       const ImagemAnterior = img_main.querySelector("img");
       const NamePlayerAnterior = img_main.querySelector("h1");
+
       if (ImagemAnterior) ImagemAnterior.remove();
       if (NamePlayerAnterior) NamePlayerAnterior.remove();
 
