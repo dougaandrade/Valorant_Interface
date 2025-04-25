@@ -1,148 +1,146 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
-
 body {
-    background: url("../img/homescreen_ep7a2_705.webp")no-repeat center;
-    height: 100vh;
-    max-width: 100%;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.571);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../img/homescreen_ep7a2_705.webp") no-repeat center;
+  height: 100vh;
+  max-width: 100%;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.571);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ion-icon {
-    font-size: 20px;
-    padding: 10px;
+  font-size: 20px;
+  padding: 10px;
 }
 
 main {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 /* Navbar Principal */
 
 .navbar {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: 0.9rem;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-bar-vlrt {
-    width: 100%;
-    gap: 3px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    cursor: pointer;
+  width: 100%;
+  gap: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
 }
 
 .logo-content {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .text-content {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 10px;
 }
 
 .miss-nav {
-    display: flex;
-    padding: 0 0.9rem 0 0rem;
+  display: flex;
+  padding: 0 0.9rem 0 0rem;
 }
 
 .point-nav {
-    display: flex;
-    padding: 0 1rem 0 2rem;
+  display: flex;
+  padding: 0 1rem 0 2rem;
 }
 
 .settings-nav {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 
 .vlr-icon {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .text-nav {
-    height: 50px;
-    font-size: 3.1rem;
-    font-weight: 100;
-    font-family: 'Bebas Neue', sans-serif;
+  height: 50px;
+  font-size: 3.1rem;
+  font-weight: 100;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .text-nav-p {
-    padding: 2px 0 0 0;
-    height: 20px;
-    width: 140px;
-    font-size: 1.2rem;
-    font-weight: 300;
-    font-family: 'Bebas Neue', sans-serif;
+  padding: 2px 0 0 0;
+  height: 20px;
+  width: 140px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .text-play-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 3rem;
-    font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .itens-ion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.6rem;
-    font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .icon-nm {
-    width: 15px;
+  width: 15px;
 }
 
 .icons-vp-rp {
-    width: 27px;
-    padding: 5px;
+  width: 27px;
+  padding: 5px;
 }
 
 .icons-miss {
-    display: flex;
-    align-items: center;
-    width: 25px;
-    padding: 2px;
+  display: flex;
+  align-items: center;
+  width: 25px;
+  padding: 2px;
 }
 
 .itens-navbar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* Fim Navbar */
@@ -150,45 +148,45 @@ main {
 /* NavbarProfile */
 
 .navbar-profile {
-    position: absolute;
-    right: 0;
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    color: white;
-    cursor: pointer;
+  position: absolute;
+  right: 0;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  color: white;
+  cursor: pointer;
 }
 
 .nav-bar-vlrt-bar {
-    width: 100%;
-    height: 100%;
-    padding: 3px;
-    gap: 3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #303b46;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #303b46;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
 }
 
 .itens-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .card-profile {
-    width: 45px;
+  width: 45px;
 }
 
 .people {
-    width: 45px;
-    height: 45px;
-    font-family: 'Bebas Neue', sans-serif;
-    background-color: #303540;
+  width: 45px;
+  height: 45px;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #303540;
 }
 
 /* Fim NavBarProfile */
@@ -196,32 +194,32 @@ main {
 /* Menu Game */
 
 .menu-game {
-    display: flex;
-    padding: 40px 0 0 40px;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    float: left;
+  display: flex;
+  padding: 40px 0 0 40px;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  float: left;
 }
 
 .itens-content {
-    display: flex;
-    font-size: 3.4rem;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 500;
-    color: white;
+  display: flex;
+  font-size: 3.4rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  color: white;
 }
 
 .itens-content:hover {
-    cursor: pointer;
-    transform: translate(10px, 0px);
-    transition-duration: .2s;
-    color: aqua;
+  cursor: pointer;
+  transform: translate(10px, 0px);
+  transition-duration: 0.2s;
+  color: aqua;
 }
 
 .red {
-    color: rgb(255, 0, 0);
-    font-size: 6rem;
+  color: rgb(255, 0, 0);
+  font-size: 6rem;
 }
 
 /* Fim Menu Game */
@@ -229,149 +227,148 @@ main {
 /* Features */
 
 .features {
-    display: flex;
-    flex-direction: column;
-    padding: 42px 64px 0 0;
-    float: right;
+  display: flex;
+  flex-direction: column;
+  padding: 42px 64px 0 0;
+  float: right;
 }
 
 .itens-features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 0 0 0;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 0 0;
+  cursor: pointer;
 }
 
 .text-coll {
-    padding: 20rem 0 0 1rem;
-    position: absolute;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 3rem;
-    color: #ffffffe3;
+  padding: 20rem 0 0 1rem;
+  position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  color: #ffffffe3;
 }
 
 .text-coll-p {
-    padding: 23.4rem 0 0 1rem;
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #ffffffb2;
+  padding: 23.4rem 0 0 1rem;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #ffffffb2;
 }
 
 .card-ammo,
 .card-feature {
-    width: 18rem;
-    height: auto;
-    border: 1px solid white;
-
+  width: 18rem;
+  height: auto;
+  border: 1px solid white;
 }
 
 .text-features {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    padding: 10px 0 5px 0;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 10px 0 5px 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
 }
 
 .card-modes {
-    display: flex;
-    flex-direction: column;
-    width: 18rem;
-    height: 84px;
-    backdrop-filter: blur(14%);
-    background-color: rgba(0, 0, 0, 0.233);
-    border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 84px;
+  backdrop-filter: blur(14%);
+  background-color: rgba(0, 0, 0, 0.233);
+  border: 1px solid white;
 }
 
 .card-trailer {
-    width: 18rem;
-    height: auto;
-    background-color: #303540;
-    border: 1px solid white;
+  width: 18rem;
+  height: auto;
+  background-color: #303540;
+  border: 1px solid white;
 }
 
 .card-patch {
-    display: flex;
-    flex-direction: column;
-    width: 18rem;
-    height: auto;
-    backdrop-filter: blur(14%);
-    background-color: rgba(0, 0, 0, 0.151);
-    border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: auto;
+  backdrop-filter: blur(14%);
+  background-color: rgba(0, 0, 0, 0.151);
+  border: 1px solid white;
 }
 
 .content-modes {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .logo-modes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: #55555538;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #55555538;
 }
 
 .text-modes {
-    display: flex;
-    align-items: center;
-    width: 9.7rem;
-    padding: 0 0 0 5px;
-    background: #55555565;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  width: 9.7rem;
+  padding: 0 0 0 5px;
+  background: #55555565;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
 }
 
 .text-patch {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 18rem;
-    height: 39px;
-    background: #2452448f;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 39px;
+  background: #2452448f;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .num-patch {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    background: #7e8a8e;
-    font-size: 0.8rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  background: #7e8a8e;
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #fff;
 }
 
 .time-mode {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 5rem;
-    font-size: 0.8rem;
-    background: #3b3b3b65;
-    font-family: 'Inter', sans-serif;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  font-size: 0.8rem;
+  background: #3b3b3b65;
+  font-family: "Inter", sans-serif;
+  color: #fff;
 }
 
 .center {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .spike-icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }

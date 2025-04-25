@@ -1,86 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 body {
-    background: url("../img/Contract\ Glitches.gif")no-repeat center;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.187);
-    height: 100%;
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background: url("../img/Contract\ Glitches.gif") no-repeat center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.187);
+  height: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 ion-icon {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 main {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 /* Reset some default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Buy Card */
 
 .card-buy {
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 25rem 10px 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 25rem 10px 0;
 }
 
 .icons-vp-buy {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .card-buy-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 14rem;
-    background: #74b6aabc;
-    border: 2px solid #ffff;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 14rem;
+  background: #74b6aabc;
+  border: 2px solid #ffff;
 }
 
 .text-card-buy-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
-    color: #fff;
-    gap: 5px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  gap: 5px;
 }
 
 .text-card-buy-p {
-    background: #e5ebb6;
-    text-align: center;
-    font-size: 0.8rem;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 1px;
-    padding: 2px 0 2px 0;
-    font-weight: 500;
+  background: #e5ebb6;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  padding: 2px 0 2px 0;
+  font-weight: 500;
 }
 
 /* Fim Buy */
@@ -88,138 +86,134 @@ main {
 /* Agents Main */
 
 .name-agents {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 7rem;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 7rem;
+  color: #fff;
 }
 
 .text-agents {
-    width: 19%;
-    position: absolute;
-    left: 58.4%;
-    right: 0;
-    top: 0;
-    bottom: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: INter, sans-serif;
-    font-size: 22px;
-    color: #fff;
+  width: 19%;
+  position: absolute;
+  left: 58.4%;
+  right: 0;
+  top: 0;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: INter, sans-serif;
+  font-size: 22px;
+  color: #fff;
 }
 
 .agents_main {
-    width: 59rem;
-    aspect-ratio: 18/10;
-    object-fit: contain;
+  width: 59rem;
+  aspect-ratio: 18/10;
+  object-fit: contain;
 }
 
 .agents-content {
-    width: 100%;
-    /* padding: 20px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .agents {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-    gap: 5px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 5px;
 }
 
 .container-agents {
-    /* height: 45rem;
+  /* height: 45rem;
     padding: 10px; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
-    display: flex;
-    width: 54%;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-    gap: 5px;
-    z-index: 99;
+  display: flex;
+  width: 54%;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 5px;
+  z-index: 99;
 }
 
 .card-agents {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
-
 
 /* Fim Arms */
 
 /* Agents */
 
 .agents-cards {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
 }
 
 .card {
-    max-width: 100%;
-    width: 70px;
-    height: auto;
-    background: #ffffff4d;
-    transition: all 0.3s;
-    border: 1px solid #ffffff;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+  max-width: 100%;
+  width: 70px;
+  height: auto;
+  background: #ffffff4d;
+  transition: all 0.3s;
+  border: 1px solid #ffffff;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .content-card {
-    max-width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .icon-agents {
-    width: 100%;
+  width: 100%;
 }
 
 .icon-close {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 30px;
-    padding: 0px 40px 5px 0px;
-    position: absolute;
-    color: #f2f687;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30px;
+  padding: 0px 40px 5px 0px;
+  position: absolute;
+  color: #f2f687;
 }
 
 .hr-itens {
-    z-index: 99;
-    max-width: 100%;
-    margin: 0 auto;
-    width: 45%;
+  z-index: 99;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 45%;
 }
-
-
 
 /* Fim Agents*/

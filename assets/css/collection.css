@@ -1,113 +1,111 @@
 body {
-    background: url("../img/Valorant-Ascent-—-Live-Wallpaper.gif")no-repeat center;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.883);
-    height: 100%;
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../img/Valorant-Ascent-—-Live-Wallpaper.gif") no-repeat
+    center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.883);
+  height: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Main Collection */
 .card-collection {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 3rem;
-    gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem;
+  gap: 20px;
 }
 
-
 /* Fim Collection */
-
 
 /* Player Card & Spray */
 
 .card-player-spray {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .player {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .img-player {
-    width: 70%;
-    aspect-ratio: 1/2;
-    height: auto;
+  width: 70%;
+  aspect-ratio: 1/2;
+  height: auto;
 }
 
 .text-player-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
-    padding: 5px;
-    font-weight: 200;
-    color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  padding: 5px;
+  font-weight: 200;
+  color: #ffffff;
 }
 
 .spray {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .card-spray {
-    width: 13rem;
-    height: auto;
-    background-color: #09387018;
+  width: 13rem;
+  height: auto;
+  background-color: #09387018;
 }
 
 .content-spray {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .text-spray-h1 {
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
-    padding: 5px;
-    font-weight: 200;
-    color: #ffffff;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  padding: 5px;
+  font-weight: 200;
+  color: #ffffff;
 }
 
 .text-spray {
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 100;
-    width: 14rem;
-    height: 1.5rem;
-    color: #ffffff;
-    background-color: #0229592d;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 100;
+  width: 14rem;
+  height: 1.5rem;
+  color: #ffffff;
+  background-color: #0229592d;
 }
 
 .img-spray {
-    max-width: 100%;
-    width: 60px;
-    height: 60px;
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
 }
 
 /* Fim PLayer & Spray */
@@ -115,65 +113,64 @@ body {
 /* SIDEARMS */
 
 .container-side {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    border: 1px red solid;
-    gap: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  gap: 60px;
 }
 
 .side_arms {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .text-side-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
-    font-weight: 200;
-    padding: 2px;
-    color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 2px;
+  color: #ffffff;
 }
 
 .card-side {
-    display: flex;
-    max-width: 100%;
-    width: 12rem;
-    background-color: #09387018;
+  display: flex;
+  max-width: 100%;
+  width: 12rem;
+  background-color: #09387018;
 }
 
 .content-side {
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-
 .text-side {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 100;
-    width: 12rem;
-    padding: 2px;
-    color: #ffffff;
-    background-color: #0229592d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 100;
+  width: 12rem;
+  padding: 2px;
+  color: #ffffff;
+  background-color: #0229592d;
 }
 
 .img-side {
-    object-fit: scale-down;
-    width: 10rem;
-    padding: 15px;
-    height: 5rem;
+  object-fit: scale-down;
+  width: 10rem;
+  padding: 15px;
+  height: 5rem;
 }
 
 /* Fim SIDEARMS */
