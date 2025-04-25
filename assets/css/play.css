@@ -6,7 +6,6 @@ body {
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -19,7 +18,6 @@ body {
     align-items: center;
     padding: 1rem 0 1rem 0;
     justify-content: center;
-
 }
 
 .radio-input input {
@@ -33,10 +31,11 @@ body {
     align-items: center;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
     justify-content: center;
     text-transform: uppercase;
     overflow: hidden;
-
 }
 
 .radio-input label {
@@ -46,9 +45,10 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    font-weight: 900;
-    letter-spacing: -1px;
-    font-size: 0.8rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+
     border-bottom: 1px solid #ffffff;
 }
 
@@ -65,21 +65,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 0 15px 0;
+    padding: 12px 0 12px 0;
 }
 
 .card-party {
     display: flex;
     align-items: center;
-    width: 15rem;
+    width: 12rem;
     height: 2.6rem;
-    background-color: #99999956;
+    background-color: #99999925;
 }
 
 .text-party {
     display: flex;
     justify-content: center;
-    padding: 0 25px 0 70px;
+    padding: 0 25px 0 25px;
     font-family: 'Inter', sans-serif;
     font-size: 0.7rem;
     font-weight: 100;
@@ -176,7 +176,7 @@ input:checked+.slider:before {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
 }
 
 .player {
@@ -192,6 +192,41 @@ input:checked+.slider:before {
     border-left: 1px solid #ffffff12;
     border-right: 1px solid #ffffff12;
 }
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 16rem;
+    height: 40rem;
+    color: #ffffff;
+    background-color: #92929218;
+    border-top: 1px solid #ffffff68;
+    border-left: 1px solid #ffffff12;
+    border-right: 1px solid #ffffff12;
+    clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 82.75%, 50% 98.5%, 0% 82.75%);
+}
+
+.p1{   
+    width: 14rem;
+    height: 30rem;
+    margin-top: 1.4rem;
+}
+
+.p2{   
+    width: 14rem;
+    height: 30rem;
+    margin-top: 3rem;
+
+}
+
+.opc-card {
+       -webkit-mask-image: linear-gradient(to bottom , rgba(0,0,0,1), rgba(0,0,0,0)), linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: bottom, top;
+}
+
 
 .text-select {
     display: flex;
@@ -206,13 +241,17 @@ input:checked+.slider:before {
 /* Fim Player */
 
 /* SelectPlay */
+hr{
+    width: 3rem;
+    background-color: #ffffff0c;
+    border: 0.2px solid #ffffff0c;
+}
 .select-play {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 0 70px 0;
-    gap: 40px;
     cursor: pointer;
 }
 
@@ -225,36 +264,42 @@ input:checked+.slider:before {
     font-family: 'Bebas Neue', sans-serif;
     color: #ffffff;
     font-size: 1rem;
-    background: linear-gradient(0deg, #fd3e8a0c 0%, rgba(237, 4, 4, 0.687) 100%);
-    border: 1px solid #ffffff;
+    letter-spacing: 2px;
+    background: #e33b46;
+}
+
+.card-over{
+    display: flex;
+    padding: 2px;
+    border: 1px solid #ffffff1f ;
 }
 
 .card-leave {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12rem;
-    height: 2rem;
+    width: 10rem;
+    height: 2.2rem;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 0.4rem;
     background-color: #92929218;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff1f ;
 }
 
 .card-pratice {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12rem;
-    height: 2rem;
+    width: 10rem;
+    height: 2.2rem;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 0.4rem;
     background-color: #92929218;
-    border: 1px solid #ffffff;
+       border: 1px solid #ffffff1f ;
 }
 
 .card-pratice:hover {

@@ -17,7 +17,6 @@ body {
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -120,7 +119,7 @@ main {
 
 .agents-content {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,8 +139,8 @@ main {
 }
 
 .container-agents {
-    height: 45rem;
-    padding: 10px;
+    /* height: 45rem;
+    padding: 10px; */
     width: 100%;
     display: flex;
     justify-content: center;

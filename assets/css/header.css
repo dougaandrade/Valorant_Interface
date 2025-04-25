@@ -187,8 +187,8 @@ ion-icon {
 .navbar-profile {
     position: absolute;
     right: 0;
+    height: 100vh;
     display: flex;
-    height: 100%;
     flex-direction: row;
     color: white;
     cursor: pointer;
